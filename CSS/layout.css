@@ -1,0 +1,99 @@
+body{
+	background-color:rgb(192,255,255);
+}
+.top{
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-repeat:no-repeat;
+	background-size:100px;	
+	height:110px;
+	width:100%;
+	background-color: rgba(155,0,135,.5);
+
+	/*z-index:4;*/
+}
+#logo{
+padding:10px;
+}
+.menu{
+	position:fixed;
+	top:10px;
+	float:left;
+	width:50px;
+	height:180px;
+	z-index:4;
+	border-radius:25px;
+
+	background-color: rgb(222,143,135);
+
+	/*position:fixed;
+	top:0px;
+	left:0px;
+	background-color: rgb(222,143,135);
+	height:120px;
+	width:100%;
+	margin:0px auto;
+	/*border-radius:25px;*/	
+}
+.main{
+	position: relative;
+	top: 110px;
+	background-image: url('Images/Interface/backgroundTemplate.png');
+	background-repeat: no-repeat;
+	height: 1500px;
+	width: 990px;
+	margin: 0px auto;
+}
+.section1{
+	position:relative;
+	top:25px;
+	left:60px;
+	width:560px;
+	height:330px;
+	/*border:1px dotted green;*/
+	overflow:auto;
+
+}
+.section2{
+	position:relative;
+	top:120px;
+	left:199px;
+	width:705px;
+	height:330px;
+	/*border:1px dotted green;*/
+	overflow:auto;
+
+}
+.section3{
+	position:relative;
+	top:180px;
+	left:30px;
+	width:700px;
+	height:330px;
+	/*border:1px dotted green;
+	*/
+}
+.bio{
+	position: relative;
+	top: 0px;
+	float: left;
+	width: 600px;
+	height: 310px;
+	/*border:1px dotted green;*/
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+}
+#us{
+border:2px solid black;
+}
+.contactInfo{
+	/*float:right;
+	width:50px;
+	height:30px;
+
+}
+#contact .bio p {
+	font-size: 14px;
+}

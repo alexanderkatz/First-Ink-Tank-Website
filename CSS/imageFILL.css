@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrap{
+	background-image:url(street.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	
+	}

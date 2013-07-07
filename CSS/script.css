@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#box{
+	background-image:url(aklogo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:250px;
+	height:200px;
+	background-color:#CFF;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#text{
+	position:relative;
+	display:block;
+	top:250px;	
+}
+

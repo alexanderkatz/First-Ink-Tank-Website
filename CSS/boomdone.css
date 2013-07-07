@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+  font-family:Carton;
+  src: url(Carton-Slab.otf);
+  }
+body{
+text-align: center;
+	}
+h1{font-family:Carton;}
+		
+#left{
+	float:left;
+	width:400px;
+	}
+#left img{
+	border:solid #000;	
+		}	
+#right{
+	position:relative;
+	margin-left:100px;
+	background-color:#CFF;
+	width:500px;
+	height:1125px;
+	float:left;
+
+	}
+#logo{
+	position:relative;
+	display:block;
+	top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+	}	

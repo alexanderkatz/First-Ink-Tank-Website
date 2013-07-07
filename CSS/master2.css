@@ -1,0 +1,120 @@
+body{
+	background-image: url(../images/background.png);
+	background-repeat:repeat-y;
+	background-size:cover;
+	height:2500px;
+	}
+
+#main{
+	width: 980px;
+	height: 2000px;
+	position:relative;
+	top:200px;
+	background-image: url(../images/hexbg.png);
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;	
+}
+
+/*Top Left Log*/
+#logo{
+	position: relative;
+	top: 100px;
+	left: 45px;
+	float:none;
+	}
+
+/*Circle that contains text*/	
+#circle{
+	float:right;
+	position:relative;
+	top:230px;
+	right:170px;
+	width:200px;
+	height:200px;
+	
+	text-align:center;
+	
+	-moz-border-radius: 999px;
+	border-radius: 999px;
+	/*background-color:yellow;*/
+
+	}
+
+/*wrapper hides the scroll bar*/			
+#wrapper {
+	position: relative;
+	top: 150px;
+	left: 80px;
+    width: 800px;
+    overflow: hidden;
+}		
+#gallery{
+	position: relative;
+	top: 0px;
+	width: 857px;
+	height: 753px;
+	left: 10px;
+	overflow: auto;
+}
+#about{
+	position:relative;
+	top:270px;
+	left:20px;
+	}
+
+#left{
+	float: left;
+	height: 500px;
+	width: 470px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}	
+#contact{
+	position:relative;
+	top:20px;
+	bottom:20px;
+	bottom:10px;
+	height:600px;
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:rgba(33,220,150,.8);
+	padding:30px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	}
+#footer{
+	width:960px;
+	height:100px;
+	}	
+
+#blurb{
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	top: 185px;
+	font-size: 55px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	}	
+#php{
+	background-color:rgba(255,255,255,.5);
+	padding:20px;
+	width:300px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	}	
+	
+#single{
+	padding-bottom:10px;
+	}	

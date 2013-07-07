@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+form {
+	position:relative;
+	top:130px;
+	width:700px;
+	margin:0 auto;
+}
+
+label {
+	font-family: 'Poiret One', sans-serif; 
+	font-weight:400px;
+	display:block;
+	margin-left:10px;
+	margin-top:20px;
+	letter-spacing:2px;
+}
+
+	
+textarea{
+	width:690px;
+	margin:0 auto;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	margin-left:2px;	
+	}
+input{width:320px;}	
+input, textarea {
+		
+	height:27px;
+	background:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+	input:focus, textarea:focus {
+		border:2px solid #97d6eb;
+	}
+
+textarea {
+	height:213px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+#submit {
+	width: 127px;
+	height: 40px;
+	text-indent: 0px;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+	background-color: rgb(132, 207, 198);
+	margin-left: auto;
+	margin-right: auto;
+	left: 295px;
+	right: auto;
+	text-align: center;
+	clip: rect(auto,auto,auto,auto);
+	position: relative;
+}
+
+	#submit:hover {
+		
+		background-color:rgba(132, 207, 198,.5);
+	}
+
+footer a img {
+	border:none;
+	float:right;
+	margin:0px 59px 40px 0px;
+}

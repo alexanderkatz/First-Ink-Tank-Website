@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#j{
+	position:relative;
+	top:200px;
+	left:100px;
+	width:45%;
+	float:left;
+}
+#a{
+	position:relative;
+	top:200px;
+	right:-250px;
+	width:45%;
+}
+#bioForm{
+	position:relative;
+	top:200px;
+}
+
+#column{
+	position:relative;
+	left:300px;
+	width:200px;
+	height:500px;
+	background-color:blue;
+	float:right;
+	}
